@@ -25,7 +25,8 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Email Service Scanner</h1>
+      <h1>Ghost Security</h1>
+      <h3>Automated security scans</h3>
       
       <button 
         onClick={handleScan} 

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120">
+  <!-- Left arm wave -->
+  <path d="M 20 50 Q 10 40 15 30 Q 20 20 25 35 Q 28 50 25 65" fill="white" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Main body -->
+  <path d="M 25 35 Q 25 25 50 20 Q 75 25 75 35 L 75 70 Q 75 85 50 95 Q 25 85 25 70 Z" fill="white" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+  
+  <!-- Right arm wave -->
+  <path d="M 80 50 Q 90 40 85 30 Q 80 20 75 35 Q 72 50 75 65" fill="white" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Left eye -->
+  <ellipse cx="38" cy="42" rx="4" ry="6" fill="black"/>
+  
+  <!-- Right eye -->
+  <ellipse cx="62" cy="42" rx="4" ry="6" fill="black"/>
+  
+  <!-- Wavy bottom edges -->
+  <path d="M 25 70 Q 30 80 35 75 Q 40 80 45 75 Q 50 82 55 75 Q 60 80 65 75 Q 70 80 75 70" fill="white" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Vertical lines on body for detail -->
+  <line x1="40" y1="55" x2="40" y2="70" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="50" y1="58" x2="50" y2="72" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="60" y1="55" x2="60" y2="70" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
