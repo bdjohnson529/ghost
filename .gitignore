@@ -1,0 +1,13 @@
+dist/
+.DS_STORE
+*.log
+
+backend/.env
+backend/.venv
+backend/__pycache__
+backend/src/__pycache__
+backend/*.pyc
+
+frontend/node_modules
+frontend/.env.local
+frontend/dist/

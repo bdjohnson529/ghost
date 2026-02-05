@@ -1,0 +1,74 @@
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.container {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.scan-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.scan-button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.scan-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #d32f2f;
+  background: #ffebee;
+  padding: 12px;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.results {
+  margin-top: 2rem;
+  text-align: left;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 4px;
+}
+
+.results h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.results li {
+  padding: 0.75rem;
+  border-bottom: 1px solid #eee;
+  color: #555;
+}
+
+.results li:last-child {
+  border-bottom: none;
+}
